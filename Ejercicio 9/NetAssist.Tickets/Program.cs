@@ -1,4 +1,5 @@
 using NetAssist.Tickets.MenuPrincipal;
+using NetAssist.Tickets.RegistrarTicket;
 
 namespace NetAssist.Tickets
 {
@@ -8,7 +9,7 @@ namespace NetAssist.Tickets
         static void Main()
         {
             ApplicationConfiguration.Initialize();
-            Application.Run(new MenuPrincipalForm());
+            Application.Run(new RegistrarTicketForm());
         }
     }
 }

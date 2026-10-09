@@ -27,311 +27,326 @@ namespace NetAssist.Tickets.RegistrarTicket
         /// </summary>
         private void InitializeComponent()
         {
-            this.grpCliente = new System.Windows.Forms.GroupBox();
-            this.lblNroCliente = new System.Windows.Forms.Label();
-            this.txtNroCliente = new System.Windows.Forms.TextBox();
-            this.lblRazonSocial = new System.Windows.Forms.Label();
-            this.txtRazonSocial = new System.Windows.Forms.TextBox();
-            this.lblContacto = new System.Windows.Forms.Label();
-            this.txtContacto = new System.Windows.Forms.TextBox();
-            this.lblTelefono = new System.Windows.Forms.Label();
-            this.txtTelefono = new System.Windows.Forms.TextBox();
-            this.grpProblema = new System.Windows.Forms.GroupBox();
-            this.lblNroTicket = new System.Windows.Forms.Label();
-            this.txtNroTicket = new System.Windows.Forms.TextBox();
-            this.lblFechaAlta = new System.Windows.Forms.Label();
-            this.dtpFechaAlta = new System.Windows.Forms.DateTimePicker();
-            this.lblCategoria = new System.Windows.Forms.Label();
-            this.cmbCategoria = new System.Windows.Forms.ComboBox();
-            this.lblPrioridad = new System.Windows.Forms.Label();
-            this.cmbPrioridad = new System.Windows.Forms.ComboBox();
-            this.lblAsunto = new System.Windows.Forms.Label();
-            this.txtAsunto = new System.Windows.Forms.TextBox();
-            this.lblDescripcion = new System.Windows.Forms.Label();
-            this.txtDescripcion = new System.Windows.Forms.TextBox();
-            this.grpAdjuntos = new System.Windows.Forms.GroupBox();
-            this.lstAdjuntos = new System.Windows.Forms.ListBox();
-            this.btnAdjuntar = new System.Windows.Forms.Button();
-            this.btnQuitarAdjunto = new System.Windows.Forms.Button();
-            this.btnAceptar = new System.Windows.Forms.Button();
-            this.btnCancelar = new System.Windows.Forms.Button();
-            this.grpCliente.SuspendLayout();
-            this.grpProblema.SuspendLayout();
-            this.grpAdjuntos.SuspendLayout();
-            this.SuspendLayout();
+            grpCliente = new GroupBox();
+            lblNroCliente = new Label();
+            txtNroCliente = new TextBox();
+            lblRazonSocial = new Label();
+            txtRazonSocial = new TextBox();
+            lblContacto = new Label();
+            txtContacto = new TextBox();
+            lblTelefono = new Label();
+            txtTelefono = new TextBox();
+            grpProblema = new GroupBox();
+            lblNroTicket = new Label();
+            txtNroTicket = new TextBox();
+            lblFechaAlta = new Label();
+            dtpFechaAlta = new DateTimePicker();
+            lblCategoria = new Label();
+            cmbCategoria = new ComboBox();
+            lblPrioridad = new Label();
+            cmbPrioridad = new ComboBox();
+            lblAsunto = new Label();
+            txtAsunto = new TextBox();
+            lblDescripcion = new Label();
+            txtDescripcion = new TextBox();
+            grpAdjuntos = new GroupBox();
+            lstAdjuntos = new ListBox();
+            btnAdjuntar = new Button();
+            btnQuitarAdjunto = new Button();
+            btnAceptar = new Button();
+            btnCancelar = new Button();
+            grpCliente.SuspendLayout();
+            grpProblema.SuspendLayout();
+            grpAdjuntos.SuspendLayout();
+            SuspendLayout();
             // 
             // grpCliente
             // 
-            this.grpCliente.Location = new System.Drawing.Point(15, 12);
-            this.grpCliente.Name = "grpCliente";
-            this.grpCliente.Size = new System.Drawing.Size(750, 110);
-            this.grpCliente.Text = "Datos del cliente";
-            this.grpCliente.Controls.Add(this.lblNroCliente);
-            this.grpCliente.Controls.Add(this.txtNroCliente);
-            this.grpCliente.Controls.Add(this.lblRazonSocial);
-            this.grpCliente.Controls.Add(this.txtRazonSocial);
-            this.grpCliente.Controls.Add(this.lblContacto);
-            this.grpCliente.Controls.Add(this.txtContacto);
-            this.grpCliente.Controls.Add(this.lblTelefono);
-            this.grpCliente.Controls.Add(this.txtTelefono);
-            this.grpCliente.TabIndex = 0;
+            grpCliente.Controls.Add(lblNroCliente);
+            grpCliente.Controls.Add(txtNroCliente);
+            grpCliente.Controls.Add(lblRazonSocial);
+            grpCliente.Controls.Add(txtRazonSocial);
+            grpCliente.Controls.Add(lblContacto);
+            grpCliente.Controls.Add(txtContacto);
+            grpCliente.Controls.Add(lblTelefono);
+            grpCliente.Controls.Add(txtTelefono);
+            grpCliente.Location = new Point(15, 12);
+            grpCliente.Name = "grpCliente";
+            grpCliente.Size = new Size(750, 110);
+            grpCliente.TabIndex = 0;
+            grpCliente.TabStop = false;
+            grpCliente.Text = "Datos del cliente";
             // 
             // lblNroCliente
             // 
-            this.lblNroCliente.AutoSize = true;
-            this.lblNroCliente.Location = new System.Drawing.Point(15, 30);
-            this.lblNroCliente.Name = "lblNroCliente";
-            this.lblNroCliente.Text = "Nº de cliente:";
-            this.lblNroCliente.TabIndex = 1;
+            lblNroCliente.AutoSize = true;
+            lblNroCliente.Location = new Point(15, 30);
+            lblNroCliente.Name = "lblNroCliente";
+            lblNroCliente.Size = new Size(78, 15);
+            lblNroCliente.TabIndex = 1;
+            lblNroCliente.Text = "Nº de cliente:";
             // 
             // txtNroCliente
             // 
-            this.txtNroCliente.Location = new System.Drawing.Point(120, 27);
-            this.txtNroCliente.Name = "txtNroCliente";
-            this.txtNroCliente.Size = new System.Drawing.Size(120, 23);
-            this.txtNroCliente.ReadOnly = true;
-            this.txtNroCliente.TabIndex = 2;
+            txtNroCliente.Location = new Point(120, 27);
+            txtNroCliente.Name = "txtNroCliente";
+            txtNroCliente.ReadOnly = true;
+            txtNroCliente.Size = new Size(120, 23);
+            txtNroCliente.TabIndex = 2;
             // 
             // lblRazonSocial
             // 
-            this.lblRazonSocial.AutoSize = true;
-            this.lblRazonSocial.Location = new System.Drawing.Point(265, 30);
-            this.lblRazonSocial.Name = "lblRazonSocial";
-            this.lblRazonSocial.Text = "Cliente:";
-            this.lblRazonSocial.TabIndex = 3;
+            lblRazonSocial.AutoSize = true;
+            lblRazonSocial.Location = new Point(265, 30);
+            lblRazonSocial.Name = "lblRazonSocial";
+            lblRazonSocial.Size = new Size(47, 15);
+            lblRazonSocial.TabIndex = 3;
+            lblRazonSocial.Text = "Cliente:";
             // 
             // txtRazonSocial
             // 
-            this.txtRazonSocial.Location = new System.Drawing.Point(330, 27);
-            this.txtRazonSocial.Name = "txtRazonSocial";
-            this.txtRazonSocial.Size = new System.Drawing.Size(400, 23);
-            this.txtRazonSocial.ReadOnly = true;
-            this.txtRazonSocial.TabIndex = 4;
+            txtRazonSocial.Location = new Point(330, 27);
+            txtRazonSocial.Name = "txtRazonSocial";
+            txtRazonSocial.ReadOnly = true;
+            txtRazonSocial.Size = new Size(400, 23);
+            txtRazonSocial.TabIndex = 4;
             // 
             // lblContacto
             // 
-            this.lblContacto.AutoSize = true;
-            this.lblContacto.Location = new System.Drawing.Point(15, 68);
-            this.lblContacto.Name = "lblContacto";
-            this.lblContacto.Text = "Contacto:";
-            this.lblContacto.TabIndex = 5;
+            lblContacto.AutoSize = true;
+            lblContacto.Location = new Point(15, 68);
+            lblContacto.Name = "lblContacto";
+            lblContacto.Size = new Size(59, 15);
+            lblContacto.TabIndex = 5;
+            lblContacto.Text = "Contacto:";
             // 
             // txtContacto
             // 
-            this.txtContacto.Location = new System.Drawing.Point(120, 65);
-            this.txtContacto.Name = "txtContacto";
-            this.txtContacto.Size = new System.Drawing.Size(250, 23);
-            this.txtContacto.TabIndex = 6;
+            txtContacto.Location = new Point(120, 65);
+            txtContacto.Name = "txtContacto";
+            txtContacto.Size = new Size(250, 23);
+            txtContacto.TabIndex = 6;
             // 
             // lblTelefono
             // 
-            this.lblTelefono.AutoSize = true;
-            this.lblTelefono.Location = new System.Drawing.Point(390, 68);
-            this.lblTelefono.Name = "lblTelefono";
-            this.lblTelefono.Text = "Teléfono:";
-            this.lblTelefono.TabIndex = 7;
+            lblTelefono.AutoSize = true;
+            lblTelefono.Location = new Point(390, 68);
+            lblTelefono.Name = "lblTelefono";
+            lblTelefono.Size = new Size(56, 15);
+            lblTelefono.TabIndex = 7;
+            lblTelefono.Text = "Teléfono:";
             // 
             // txtTelefono
             // 
-            this.txtTelefono.Location = new System.Drawing.Point(460, 65);
-            this.txtTelefono.Name = "txtTelefono";
-            this.txtTelefono.Size = new System.Drawing.Size(270, 23);
-            this.txtTelefono.TabIndex = 8;
+            txtTelefono.Location = new Point(460, 65);
+            txtTelefono.Name = "txtTelefono";
+            txtTelefono.Size = new Size(270, 23);
+            txtTelefono.TabIndex = 8;
             // 
             // grpProblema
             // 
-            this.grpProblema.Location = new System.Drawing.Point(15, 130);
-            this.grpProblema.Name = "grpProblema";
-            this.grpProblema.Size = new System.Drawing.Size(750, 300);
-            this.grpProblema.Text = "Descripción del problema";
-            this.grpProblema.Controls.Add(this.lblNroTicket);
-            this.grpProblema.Controls.Add(this.txtNroTicket);
-            this.grpProblema.Controls.Add(this.lblFechaAlta);
-            this.grpProblema.Controls.Add(this.dtpFechaAlta);
-            this.grpProblema.Controls.Add(this.lblCategoria);
-            this.grpProblema.Controls.Add(this.cmbCategoria);
-            this.grpProblema.Controls.Add(this.lblPrioridad);
-            this.grpProblema.Controls.Add(this.cmbPrioridad);
-            this.grpProblema.Controls.Add(this.lblAsunto);
-            this.grpProblema.Controls.Add(this.txtAsunto);
-            this.grpProblema.Controls.Add(this.lblDescripcion);
-            this.grpProblema.Controls.Add(this.txtDescripcion);
-            this.grpProblema.TabIndex = 9;
+            grpProblema.Controls.Add(lblNroTicket);
+            grpProblema.Controls.Add(txtNroTicket);
+            grpProblema.Controls.Add(lblFechaAlta);
+            grpProblema.Controls.Add(dtpFechaAlta);
+            grpProblema.Controls.Add(lblCategoria);
+            grpProblema.Controls.Add(cmbCategoria);
+            grpProblema.Controls.Add(lblPrioridad);
+            grpProblema.Controls.Add(cmbPrioridad);
+            grpProblema.Controls.Add(lblAsunto);
+            grpProblema.Controls.Add(txtAsunto);
+            grpProblema.Controls.Add(lblDescripcion);
+            grpProblema.Controls.Add(txtDescripcion);
+            grpProblema.Location = new Point(15, 130);
+            grpProblema.Name = "grpProblema";
+            grpProblema.Size = new Size(750, 300);
+            grpProblema.TabIndex = 9;
+            grpProblema.TabStop = false;
+            grpProblema.Text = "Descripción del problema";
             // 
             // lblNroTicket
             // 
-            this.lblNroTicket.AutoSize = true;
-            this.lblNroTicket.Location = new System.Drawing.Point(15, 30);
-            this.lblNroTicket.Name = "lblNroTicket";
-            this.lblNroTicket.Text = "Nº de ticket:";
-            this.lblNroTicket.TabIndex = 10;
+            lblNroTicket.AutoSize = true;
+            lblNroTicket.Location = new Point(15, 30);
+            lblNroTicket.Name = "lblNroTicket";
+            lblNroTicket.Size = new Size(72, 15);
+            lblNroTicket.TabIndex = 10;
+            lblNroTicket.Text = "Nº de ticket:";
             // 
             // txtNroTicket
             // 
-            this.txtNroTicket.Location = new System.Drawing.Point(120, 27);
-            this.txtNroTicket.Name = "txtNroTicket";
-            this.txtNroTicket.Size = new System.Drawing.Size(120, 23);
-            this.txtNroTicket.ReadOnly = true;
-            this.txtNroTicket.TabIndex = 11;
+            txtNroTicket.Location = new Point(120, 27);
+            txtNroTicket.Name = "txtNroTicket";
+            txtNroTicket.ReadOnly = true;
+            txtNroTicket.Size = new Size(120, 23);
+            txtNroTicket.TabIndex = 11;
             // 
             // lblFechaAlta
             // 
-            this.lblFechaAlta.AutoSize = true;
-            this.lblFechaAlta.Location = new System.Drawing.Point(265, 30);
-            this.lblFechaAlta.Name = "lblFechaAlta";
-            this.lblFechaAlta.Text = "Fecha:";
-            this.lblFechaAlta.TabIndex = 12;
+            lblFechaAlta.AutoSize = true;
+            lblFechaAlta.Location = new Point(265, 30);
+            lblFechaAlta.Name = "lblFechaAlta";
+            lblFechaAlta.Size = new Size(41, 15);
+            lblFechaAlta.TabIndex = 12;
+            lblFechaAlta.Text = "Fecha:";
             // 
             // dtpFechaAlta
             // 
-            this.dtpFechaAlta.Location = new System.Drawing.Point(330, 27);
-            this.dtpFechaAlta.Name = "dtpFechaAlta";
-            this.dtpFechaAlta.Size = new System.Drawing.Size(120, 23);
-            this.dtpFechaAlta.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtpFechaAlta.TabIndex = 13;
+            dtpFechaAlta.Format = DateTimePickerFormat.Short;
+            dtpFechaAlta.Location = new Point(330, 27);
+            dtpFechaAlta.Name = "dtpFechaAlta";
+            dtpFechaAlta.Size = new Size(120, 23);
+            dtpFechaAlta.TabIndex = 13;
             // 
             // lblCategoria
             // 
-            this.lblCategoria.AutoSize = true;
-            this.lblCategoria.Location = new System.Drawing.Point(15, 68);
-            this.lblCategoria.Name = "lblCategoria";
-            this.lblCategoria.Text = "Categoría:";
-            this.lblCategoria.TabIndex = 14;
+            lblCategoria.AutoSize = true;
+            lblCategoria.Location = new Point(15, 68);
+            lblCategoria.Name = "lblCategoria";
+            lblCategoria.Size = new Size(61, 15);
+            lblCategoria.TabIndex = 14;
+            lblCategoria.Text = "Categoría:";
             // 
             // cmbCategoria
             // 
-            this.cmbCategoria.Location = new System.Drawing.Point(120, 65);
-            this.cmbCategoria.Name = "cmbCategoria";
-            this.cmbCategoria.Size = new System.Drawing.Size(250, 23);
-            this.cmbCategoria.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cmbCategoria.Items.AddRange(new object[] { "Conectividad / Internet", "Correo electrónico", "Hardware", "Software / Aplicaciones", "Impresoras", "Seguridad / Accesos" });
-            this.cmbCategoria.TabIndex = 15;
+            cmbCategoria.DropDownStyle = ComboBoxStyle.DropDownList;
+            cmbCategoria.Items.AddRange(new object[] { "Conectividad / Internet", "Correo electrónico", "Hardware", "Software / Aplicaciones", "Impresoras", "Seguridad / Accesos" });
+            cmbCategoria.Location = new Point(120, 65);
+            cmbCategoria.Name = "cmbCategoria";
+            cmbCategoria.Size = new Size(250, 23);
+            cmbCategoria.TabIndex = 15;
             // 
             // lblPrioridad
             // 
-            this.lblPrioridad.AutoSize = true;
-            this.lblPrioridad.Location = new System.Drawing.Point(390, 68);
-            this.lblPrioridad.Name = "lblPrioridad";
-            this.lblPrioridad.Text = "Prioridad:";
-            this.lblPrioridad.TabIndex = 16;
+            lblPrioridad.AutoSize = true;
+            lblPrioridad.Location = new Point(390, 68);
+            lblPrioridad.Name = "lblPrioridad";
+            lblPrioridad.Size = new Size(58, 15);
+            lblPrioridad.TabIndex = 16;
+            lblPrioridad.Text = "Prioridad:";
             // 
             // cmbPrioridad
             // 
-            this.cmbPrioridad.Location = new System.Drawing.Point(460, 65);
-            this.cmbPrioridad.Name = "cmbPrioridad";
-            this.cmbPrioridad.Size = new System.Drawing.Size(270, 23);
-            this.cmbPrioridad.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cmbPrioridad.Items.AddRange(new object[] { "Baja", "Media", "Alta", "Crítica" });
-            this.cmbPrioridad.TabIndex = 17;
+            cmbPrioridad.DropDownStyle = ComboBoxStyle.DropDownList;
+            cmbPrioridad.Items.AddRange(new object[] { "Baja", "Media", "Alta", "Crítica" });
+            cmbPrioridad.Location = new Point(460, 65);
+            cmbPrioridad.Name = "cmbPrioridad";
+            cmbPrioridad.Size = new Size(270, 23);
+            cmbPrioridad.TabIndex = 17;
             // 
             // lblAsunto
             // 
-            this.lblAsunto.AutoSize = true;
-            this.lblAsunto.Location = new System.Drawing.Point(15, 106);
-            this.lblAsunto.Name = "lblAsunto";
-            this.lblAsunto.Text = "Asunto:";
-            this.lblAsunto.TabIndex = 18;
+            lblAsunto.AutoSize = true;
+            lblAsunto.Location = new Point(15, 106);
+            lblAsunto.Name = "lblAsunto";
+            lblAsunto.Size = new Size(48, 15);
+            lblAsunto.TabIndex = 18;
+            lblAsunto.Text = "Asunto:";
             // 
             // txtAsunto
             // 
-            this.txtAsunto.Location = new System.Drawing.Point(120, 103);
-            this.txtAsunto.Name = "txtAsunto";
-            this.txtAsunto.Size = new System.Drawing.Size(610, 23);
-            this.txtAsunto.TabIndex = 19;
+            txtAsunto.Location = new Point(120, 103);
+            txtAsunto.Name = "txtAsunto";
+            txtAsunto.Size = new Size(610, 23);
+            txtAsunto.TabIndex = 19;
             // 
             // lblDescripcion
             // 
-            this.lblDescripcion.AutoSize = true;
-            this.lblDescripcion.Location = new System.Drawing.Point(15, 142);
-            this.lblDescripcion.Name = "lblDescripcion";
-            this.lblDescripcion.Text = "Descripción:";
-            this.lblDescripcion.TabIndex = 20;
+            lblDescripcion.AutoSize = true;
+            lblDescripcion.Location = new Point(15, 142);
+            lblDescripcion.Name = "lblDescripcion";
+            lblDescripcion.Size = new Size(72, 15);
+            lblDescripcion.TabIndex = 20;
+            lblDescripcion.Text = "Descripción:";
+            lblDescripcion.Click += lblDescripcion_Click;
             // 
             // txtDescripcion
             // 
-            this.txtDescripcion.Location = new System.Drawing.Point(120, 139);
-            this.txtDescripcion.Name = "txtDescripcion";
-            this.txtDescripcion.Size = new System.Drawing.Size(610, 140);
-            this.txtDescripcion.Multiline = true;
-            this.txtDescripcion.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.txtDescripcion.TabIndex = 21;
+            txtDescripcion.Location = new Point(120, 139);
+            txtDescripcion.Multiline = true;
+            txtDescripcion.Name = "txtDescripcion";
+            txtDescripcion.ScrollBars = ScrollBars.Vertical;
+            txtDescripcion.Size = new Size(610, 140);
+            txtDescripcion.TabIndex = 21;
+            txtDescripcion.TextChanged += txtDescripcion_TextChanged;
             // 
             // grpAdjuntos
             // 
-            this.grpAdjuntos.Location = new System.Drawing.Point(15, 438);
-            this.grpAdjuntos.Name = "grpAdjuntos";
-            this.grpAdjuntos.Size = new System.Drawing.Size(750, 100);
-            this.grpAdjuntos.Text = "Archivos adjuntos";
-            this.grpAdjuntos.Controls.Add(this.lstAdjuntos);
-            this.grpAdjuntos.Controls.Add(this.btnAdjuntar);
-            this.grpAdjuntos.Controls.Add(this.btnQuitarAdjunto);
-            this.grpAdjuntos.TabIndex = 22;
+            grpAdjuntos.Controls.Add(lstAdjuntos);
+            grpAdjuntos.Controls.Add(btnAdjuntar);
+            grpAdjuntos.Controls.Add(btnQuitarAdjunto);
+            grpAdjuntos.Location = new Point(15, 438);
+            grpAdjuntos.Name = "grpAdjuntos";
+            grpAdjuntos.Size = new Size(750, 100);
+            grpAdjuntos.TabIndex = 22;
+            grpAdjuntos.TabStop = false;
+            grpAdjuntos.Text = "Archivos adjuntos";
             // 
             // lstAdjuntos
             // 
-            this.lstAdjuntos.Location = new System.Drawing.Point(15, 25);
-            this.lstAdjuntos.Name = "lstAdjuntos";
-            this.lstAdjuntos.Size = new System.Drawing.Size(600, 64);
-            this.lstAdjuntos.TabIndex = 23;
+            lstAdjuntos.ItemHeight = 15;
+            lstAdjuntos.Location = new Point(15, 25);
+            lstAdjuntos.Name = "lstAdjuntos";
+            lstAdjuntos.Size = new Size(600, 64);
+            lstAdjuntos.TabIndex = 23;
+            lstAdjuntos.SelectedIndexChanged += lstAdjuntos_SelectedIndexChanged;
             // 
             // btnAdjuntar
             // 
-            this.btnAdjuntar.Location = new System.Drawing.Point(630, 25);
-            this.btnAdjuntar.Name = "btnAdjuntar";
-            this.btnAdjuntar.Size = new System.Drawing.Size(100, 30);
-            this.btnAdjuntar.Text = "Adjuntar...";
-            this.btnAdjuntar.TabIndex = 24;
+            btnAdjuntar.Location = new Point(630, 25);
+            btnAdjuntar.Name = "btnAdjuntar";
+            btnAdjuntar.Size = new Size(100, 30);
+            btnAdjuntar.TabIndex = 24;
+            btnAdjuntar.Text = "Adjuntar...";
             // 
             // btnQuitarAdjunto
             // 
-            this.btnQuitarAdjunto.Location = new System.Drawing.Point(630, 60);
-            this.btnQuitarAdjunto.Name = "btnQuitarAdjunto";
-            this.btnQuitarAdjunto.Size = new System.Drawing.Size(100, 30);
-            this.btnQuitarAdjunto.Text = "Quitar";
-            this.btnQuitarAdjunto.TabIndex = 25;
+            btnQuitarAdjunto.Location = new Point(630, 60);
+            btnQuitarAdjunto.Name = "btnQuitarAdjunto";
+            btnQuitarAdjunto.Size = new Size(100, 30);
+            btnQuitarAdjunto.TabIndex = 25;
+            btnQuitarAdjunto.Text = "Quitar";
             // 
             // btnAceptar
             // 
-            this.btnAceptar.Location = new System.Drawing.Point(544, 554);
-            this.btnAceptar.Name = "btnAceptar";
-            this.btnAceptar.Size = new System.Drawing.Size(110, 30);
-            this.btnAceptar.Text = "Registrar";
-            this.btnAceptar.TabIndex = 26;
+            btnAceptar.Location = new Point(544, 554);
+            btnAceptar.Name = "btnAceptar";
+            btnAceptar.Size = new Size(110, 30);
+            btnAceptar.TabIndex = 26;
+            btnAceptar.Text = "Registrar";
             // 
             // btnCancelar
             // 
-            this.btnCancelar.Location = new System.Drawing.Point(662, 554);
-            this.btnCancelar.Name = "btnCancelar";
-            this.btnCancelar.Size = new System.Drawing.Size(100, 30);
-            this.btnCancelar.Text = "Cancelar";
-            this.btnCancelar.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.btnCancelar.TabIndex = 27;
+            btnCancelar.DialogResult = DialogResult.Cancel;
+            btnCancelar.Location = new Point(662, 554);
+            btnCancelar.Name = "btnCancelar";
+            btnCancelar.Size = new Size(100, 30);
+            btnCancelar.TabIndex = 27;
+            btnCancelar.Text = "Cancelar";
             // 
             // RegistrarTicketForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(780, 600);
-            this.AcceptButton = this.btnAceptar;
-            this.CancelButton = this.btnCancelar;
-            this.Controls.Add(this.grpCliente);
-            this.Controls.Add(this.grpProblema);
-            this.Controls.Add(this.grpAdjuntos);
-            this.Controls.Add(this.btnAceptar);
-            this.Controls.Add(this.btnCancelar);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
-            this.MaximizeBox = false;
-            this.Name = "RegistrarTicketForm";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Registrar ticket de soporte";
-            this.grpCliente.ResumeLayout(false);
-            this.grpCliente.PerformLayout();
-            this.grpProblema.ResumeLayout(false);
-            this.grpProblema.PerformLayout();
-            this.grpAdjuntos.ResumeLayout(false);
-            this.grpAdjuntos.PerformLayout();
-            this.ResumeLayout(false);
-            this.PerformLayout();
+            AcceptButton = btnAceptar;
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            CancelButton = btnCancelar;
+            ClientSize = new Size(780, 600);
+            Controls.Add(grpCliente);
+            Controls.Add(grpProblema);
+            Controls.Add(grpAdjuntos);
+            Controls.Add(btnAceptar);
+            Controls.Add(btnCancelar);
+            FormBorderStyle = FormBorderStyle.FixedDialog;
+            MaximizeBox = false;
+            Name = "RegistrarTicketForm";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "Registrar ticket de soporte";
+            grpCliente.ResumeLayout(false);
+            grpCliente.PerformLayout();
+            grpProblema.ResumeLayout(false);
+            grpProblema.PerformLayout();
+            grpAdjuntos.ResumeLayout(false);
+            ResumeLayout(false);
         }
 
         #endregion

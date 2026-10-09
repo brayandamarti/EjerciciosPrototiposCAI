@@ -27,165 +27,167 @@ namespace NetAssist.Tickets.MenuPrincipal
         /// </summary>
         private void InitializeComponent()
         {
-            this.lblTitulo = new System.Windows.Forms.Label();
-            this.lblUsuario = new System.Windows.Forms.Label();
-            this.txtUsuario = new System.Windows.Forms.TextBox();
-            this.grpCliente = new System.Windows.Forms.GroupBox();
-            this.btnRegistrarTicket = new System.Windows.Forms.Button();
-            this.btnNotificaciones = new System.Windows.Forms.Button();
-            this.grpOperador = new System.Windows.Forms.GroupBox();
-            this.btnDerivarTickets = new System.Windows.Forms.Button();
-            this.grpTecnico = new System.Windows.Forms.GroupBox();
-            this.btnResolverTickets = new System.Windows.Forms.Button();
-            this.grpJefeSoporte = new System.Windows.Forms.GroupBox();
-            this.btnEvaluarSoporte = new System.Windows.Forms.Button();
-            this.btnSalir = new System.Windows.Forms.Button();
-            this.grpCliente.SuspendLayout();
-            this.grpOperador.SuspendLayout();
-            this.grpTecnico.SuspendLayout();
-            this.grpJefeSoporte.SuspendLayout();
-            this.SuspendLayout();
+            lblTitulo = new Label();
+            lblUsuario = new Label();
+            txtUsuario = new TextBox();
+            grpCliente = new GroupBox();
+            btnRegistrarTicket = new Button();
+            btnNotificaciones = new Button();
+            grpOperador = new GroupBox();
+            btnDerivarTickets = new Button();
+            grpTecnico = new GroupBox();
+            btnResolverTickets = new Button();
+            grpJefeSoporte = new GroupBox();
+            btnEvaluarSoporte = new Button();
+            btnSalir = new Button();
+            grpCliente.SuspendLayout();
+            grpOperador.SuspendLayout();
+            grpTecnico.SuspendLayout();
+            grpJefeSoporte.SuspendLayout();
+            SuspendLayout();
             // 
             // lblTitulo
             // 
-            this.lblTitulo.AutoSize = true;
-            this.lblTitulo.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
-            this.lblTitulo.Location = new System.Drawing.Point(20, 18);
-            this.lblTitulo.Name = "lblTitulo";
-            this.lblTitulo.Text = "Gestión de Tickets de Soporte Técnico";
-            this.lblTitulo.TabIndex = 0;
+            lblTitulo.AutoSize = true;
+            lblTitulo.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
+            lblTitulo.Location = new Point(20, 18);
+            lblTitulo.Name = "lblTitulo";
+            lblTitulo.Size = new Size(297, 21);
+            lblTitulo.TabIndex = 0;
+            lblTitulo.Text = "Gestión de Tickets de Soporte Técnico";
             // 
             // lblUsuario
             // 
-            this.lblUsuario.AutoSize = true;
-            this.lblUsuario.Location = new System.Drawing.Point(22, 55);
-            this.lblUsuario.Name = "lblUsuario";
-            this.lblUsuario.Text = "Usuario conectado:";
-            this.lblUsuario.TabIndex = 1;
+            lblUsuario.AutoSize = true;
+            lblUsuario.Location = new Point(22, 55);
+            lblUsuario.Name = "lblUsuario";
+            lblUsuario.Size = new Size(109, 15);
+            lblUsuario.TabIndex = 1;
+            lblUsuario.Text = "Usuario conectado:";
             // 
             // txtUsuario
             // 
-            this.txtUsuario.Location = new System.Drawing.Point(150, 52);
-            this.txtUsuario.Name = "txtUsuario";
-            this.txtUsuario.Size = new System.Drawing.Size(340, 23);
-            this.txtUsuario.ReadOnly = true;
-            this.txtUsuario.TabIndex = 2;
+            txtUsuario.Location = new Point(150, 52);
+            txtUsuario.Name = "txtUsuario";
+            txtUsuario.ReadOnly = true;
+            txtUsuario.Size = new Size(340, 23);
+            txtUsuario.TabIndex = 2;
             // 
             // grpCliente
             // 
-            this.grpCliente.Location = new System.Drawing.Point(20, 90);
-            this.grpCliente.Name = "grpCliente";
-            this.grpCliente.Size = new System.Drawing.Size(230, 115);
-            this.grpCliente.Text = "Cliente";
-            this.grpCliente.Controls.Add(this.btnRegistrarTicket);
-            this.grpCliente.Controls.Add(this.btnNotificaciones);
-            this.grpCliente.TabIndex = 3;
+            grpCliente.Controls.Add(btnRegistrarTicket);
+            grpCliente.Controls.Add(btnNotificaciones);
+            grpCliente.Location = new Point(20, 90);
+            grpCliente.Name = "grpCliente";
+            grpCliente.Size = new Size(230, 115);
+            grpCliente.TabIndex = 3;
+            grpCliente.TabStop = false;
+            grpCliente.Text = "Cliente";
             // 
             // btnRegistrarTicket
             // 
-            this.btnRegistrarTicket.Location = new System.Drawing.Point(15, 28);
-            this.btnRegistrarTicket.Name = "btnRegistrarTicket";
-            this.btnRegistrarTicket.Size = new System.Drawing.Size(200, 32);
-            this.btnRegistrarTicket.Text = "Registrar ticket";
-            this.btnRegistrarTicket.TabIndex = 4;
+            btnRegistrarTicket.Location = new Point(15, 28);
+            btnRegistrarTicket.Name = "btnRegistrarTicket";
+            btnRegistrarTicket.Size = new Size(200, 32);
+            btnRegistrarTicket.TabIndex = 4;
+            btnRegistrarTicket.Text = "Registrar ticket";
             // 
             // btnNotificaciones
             // 
-            this.btnNotificaciones.Location = new System.Drawing.Point(15, 68);
-            this.btnNotificaciones.Name = "btnNotificaciones";
-            this.btnNotificaciones.Size = new System.Drawing.Size(200, 32);
-            this.btnNotificaciones.Text = "Notificaciones de cierre";
-            this.btnNotificaciones.TabIndex = 5;
+            btnNotificaciones.Location = new Point(15, 68);
+            btnNotificaciones.Name = "btnNotificaciones";
+            btnNotificaciones.Size = new Size(200, 32);
+            btnNotificaciones.TabIndex = 5;
+            btnNotificaciones.Text = "Notificaciones de cierre";
             // 
             // grpOperador
             // 
-            this.grpOperador.Location = new System.Drawing.Point(270, 90);
-            this.grpOperador.Name = "grpOperador";
-            this.grpOperador.Size = new System.Drawing.Size(230, 115);
-            this.grpOperador.Text = "Operador";
-            this.grpOperador.Controls.Add(this.btnDerivarTickets);
-            this.grpOperador.TabIndex = 6;
+            grpOperador.Controls.Add(btnDerivarTickets);
+            grpOperador.Location = new Point(270, 90);
+            grpOperador.Name = "grpOperador";
+            grpOperador.Size = new Size(230, 115);
+            grpOperador.TabIndex = 6;
+            grpOperador.TabStop = false;
+            grpOperador.Text = "Operador";
             // 
             // btnDerivarTickets
             // 
-            this.btnDerivarTickets.Location = new System.Drawing.Point(15, 28);
-            this.btnDerivarTickets.Name = "btnDerivarTickets";
-            this.btnDerivarTickets.Size = new System.Drawing.Size(200, 32);
-            this.btnDerivarTickets.Text = "Analizar y derivar tickets";
-            this.btnDerivarTickets.TabIndex = 7;
+            btnDerivarTickets.Location = new Point(15, 28);
+            btnDerivarTickets.Name = "btnDerivarTickets";
+            btnDerivarTickets.Size = new Size(200, 32);
+            btnDerivarTickets.TabIndex = 7;
+            btnDerivarTickets.Text = "Analizar y derivar tickets";
             // 
             // grpTecnico
             // 
-            this.grpTecnico.Location = new System.Drawing.Point(20, 215);
-            this.grpTecnico.Name = "grpTecnico";
-            this.grpTecnico.Size = new System.Drawing.Size(230, 80);
-            this.grpTecnico.Text = "Técnico";
-            this.grpTecnico.Controls.Add(this.btnResolverTickets);
-            this.grpTecnico.TabIndex = 8;
+            grpTecnico.Controls.Add(btnResolverTickets);
+            grpTecnico.Location = new Point(20, 215);
+            grpTecnico.Name = "grpTecnico";
+            grpTecnico.Size = new Size(230, 80);
+            grpTecnico.TabIndex = 8;
+            grpTecnico.TabStop = false;
+            grpTecnico.Text = "Técnico";
             // 
             // btnResolverTickets
             // 
-            this.btnResolverTickets.Location = new System.Drawing.Point(15, 28);
-            this.btnResolverTickets.Name = "btnResolverTickets";
-            this.btnResolverTickets.Size = new System.Drawing.Size(200, 32);
-            this.btnResolverTickets.Text = "Resolver tickets asignados";
-            this.btnResolverTickets.TabIndex = 9;
+            btnResolverTickets.Location = new Point(15, 28);
+            btnResolverTickets.Name = "btnResolverTickets";
+            btnResolverTickets.Size = new Size(200, 32);
+            btnResolverTickets.TabIndex = 9;
+            btnResolverTickets.Text = "Resolver tickets asignados";
             // 
             // grpJefeSoporte
             // 
-            this.grpJefeSoporte.Location = new System.Drawing.Point(270, 215);
-            this.grpJefeSoporte.Name = "grpJefeSoporte";
-            this.grpJefeSoporte.Size = new System.Drawing.Size(230, 80);
-            this.grpJefeSoporte.Text = "Jefe de soporte";
-            this.grpJefeSoporte.Controls.Add(this.btnEvaluarSoporte);
-            this.grpJefeSoporte.TabIndex = 10;
+            grpJefeSoporte.Controls.Add(btnEvaluarSoporte);
+            grpJefeSoporte.Location = new Point(270, 215);
+            grpJefeSoporte.Name = "grpJefeSoporte";
+            grpJefeSoporte.Size = new Size(230, 80);
+            grpJefeSoporte.TabIndex = 10;
+            grpJefeSoporte.TabStop = false;
+            grpJefeSoporte.Text = "Jefe de soporte";
             // 
             // btnEvaluarSoporte
             // 
-            this.btnEvaluarSoporte.Location = new System.Drawing.Point(15, 28);
-            this.btnEvaluarSoporte.Name = "btnEvaluarSoporte";
-            this.btnEvaluarSoporte.Size = new System.Drawing.Size(200, 32);
-            this.btnEvaluarSoporte.Text = "Evaluar desempeño";
-            this.btnEvaluarSoporte.TabIndex = 11;
+            btnEvaluarSoporte.Location = new Point(15, 28);
+            btnEvaluarSoporte.Name = "btnEvaluarSoporte";
+            btnEvaluarSoporte.Size = new Size(200, 32);
+            btnEvaluarSoporte.TabIndex = 11;
+            btnEvaluarSoporte.Text = "Evaluar desempeño";
             // 
             // btnSalir
             // 
-            this.btnSalir.Location = new System.Drawing.Point(402, 354);
-            this.btnSalir.Name = "btnSalir";
-            this.btnSalir.Size = new System.Drawing.Size(100, 30);
-            this.btnSalir.Text = "Salir";
-            this.btnSalir.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.btnSalir.TabIndex = 12;
+            btnSalir.DialogResult = DialogResult.Cancel;
+            btnSalir.Location = new Point(402, 354);
+            btnSalir.Name = "btnSalir";
+            btnSalir.Size = new Size(100, 30);
+            btnSalir.TabIndex = 12;
+            btnSalir.Text = "Salir";
             // 
             // MenuPrincipalForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(520, 400);
-            this.CancelButton = this.btnSalir;
-            this.Controls.Add(this.lblTitulo);
-            this.Controls.Add(this.lblUsuario);
-            this.Controls.Add(this.txtUsuario);
-            this.Controls.Add(this.grpCliente);
-            this.Controls.Add(this.grpOperador);
-            this.Controls.Add(this.grpTecnico);
-            this.Controls.Add(this.grpJefeSoporte);
-            this.Controls.Add(this.btnSalir);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
-            this.MaximizeBox = false;
-            this.Name = "MenuPrincipalForm";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "NetAssist - Gestión de Tickets de Soporte";
-            this.grpCliente.ResumeLayout(false);
-            this.grpCliente.PerformLayout();
-            this.grpOperador.ResumeLayout(false);
-            this.grpOperador.PerformLayout();
-            this.grpTecnico.ResumeLayout(false);
-            this.grpTecnico.PerformLayout();
-            this.grpJefeSoporte.ResumeLayout(false);
-            this.grpJefeSoporte.PerformLayout();
-            this.ResumeLayout(false);
-            this.PerformLayout();
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            CancelButton = btnSalir;
+            ClientSize = new Size(520, 400);
+            Controls.Add(lblTitulo);
+            Controls.Add(lblUsuario);
+            Controls.Add(txtUsuario);
+            Controls.Add(grpCliente);
+            Controls.Add(grpOperador);
+            Controls.Add(grpTecnico);
+            Controls.Add(grpJefeSoporte);
+            Controls.Add(btnSalir);
+            FormBorderStyle = FormBorderStyle.FixedDialog;
+            MaximizeBox = false;
+            Name = "MenuPrincipalForm";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "NetAssist - Gestión de Tickets de Soporte";
+            grpCliente.ResumeLayout(false);
+            grpOperador.ResumeLayout(false);
+            grpTecnico.ResumeLayout(false);
+            grpJefeSoporte.ResumeLayout(false);
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
