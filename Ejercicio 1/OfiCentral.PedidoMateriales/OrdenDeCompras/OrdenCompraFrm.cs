@@ -1,8 +1,8 @@
 namespace OfiCentral.PedidoMateriales.Formularios.Compras
 {
-    public partial class FrmOrdenCompra : Form
+    public partial class OrdenCompraFrm : Form
     {
-        public FrmOrdenCompra()
+        public OrdenCompraFrm()
         {
             InitializeComponent();
         }

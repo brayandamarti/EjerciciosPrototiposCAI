@@ -1,8 +1,8 @@
 namespace OfiCentral.PedidoMateriales.Formularios.Deposito
 {
-    public partial class FrmEntregaMateriales : Form
+    public partial class EntregaMaterialesFrm : Form
     {
-        public FrmEntregaMateriales()
+        public EntregaMaterialesFrm()
         {
             InitializeComponent();
         }

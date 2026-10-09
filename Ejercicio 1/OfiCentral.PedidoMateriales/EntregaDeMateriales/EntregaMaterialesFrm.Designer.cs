@@ -1,6 +1,6 @@
 namespace OfiCentral.PedidoMateriales.Formularios.Deposito
 {
-    partial class FrmEntregaMateriales
+    partial class EntregaMaterialesFrm
     {
         /// <summary>
         /// Required designer variable.

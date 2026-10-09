@@ -1,8 +1,8 @@
 namespace OfiCentral.PedidoMateriales.Formularios.Empleado
 {
-    public partial class FrmSolicitudMateriales : Form
+    public partial class SolicitudMaterialesFrm : Form
     {
-        public FrmSolicitudMateriales()
+        public SolicitudMaterialesFrm()
         {
             InitializeComponent();
         }

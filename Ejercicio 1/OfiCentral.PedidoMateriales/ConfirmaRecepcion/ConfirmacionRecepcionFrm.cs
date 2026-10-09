@@ -1,8 +1,8 @@
 namespace OfiCentral.PedidoMateriales.Formularios.Empleado
 {
-    public partial class FrmConfirmacionRecepcion : Form
+    public partial class ConfirmacionRecepcionFrm : Form
     {
-        public FrmConfirmacionRecepcion()
+        public ConfirmacionRecepcionFrm()
         {
             InitializeComponent();
         }
